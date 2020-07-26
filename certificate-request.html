@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Startng Certificate Request</title>
+    <!-- Font Awesome CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css"
+        integrity="sha512-xA6Hp6oezhjd6LiLZynuukm80f8BoZ3OpcEYaqKoCV3HKQDrYjDE1Gu8ocxgxoXmwmSzM4iqPvCsOkQNiu41GA=="
+        crossorigin="anonymous" />
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./css/certificate-request.css">
+</head>
+
+<!-- Page Content -->
+
+<body>
+    <!-- Navigation bar-->
+    <header class="navigationHead container-fluid pt-5">
+        <div class="row">
+            <div class="col-md-10 offset-md-1">
+                <nav class="mb-3 px-0 navbar navbar-light navbar-expand-md text-dark">
+                    <!-- Brand -->
+                    <a class="navbar-brand logo" href="#">
+                        <a href="index.html"><img src="./images/certificate-request/group 12.png" alt="facebook"
+                                class="img-responsive" /></a>
+                    </a>
+
+                    <button class="navbar-toggler" data-toggle="collapse" data-target="#collapsibleNavbar">
+                        <!-- <span class="navbar-toggler-icon text-white"></span> -->
+                        <i class="fas fa-bars text-danger"></i>
+                    </button>
+
+
+                    <!-- Navbar links -->
+                    <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
+                        <ul class="navbar-nav text-dark">
+                            <li class="nav-item mr-3 ">
+                                <a class="nav-link d-sm-inline-block text-danger" href="./index.html">Home</a>
+                            </li>
+                            <li class="nav-item mr-3">
+                                <a class="nav-link" href="./curriculumn-v1.html">Curriculum</a>
+                            </li>
+                            <li class="nav-item mr-3">
+                                <a class="nav-link" href="./pastTechies.html">Previous Techies</a>
+                            </li>
+                            <li class="nav-item mr-3">
+                                <a class="nav-link" href="./mentors.html">Mentors</a>
+                            </li>
+                            <li class="nav-item ">
+                                <a class="nav-link" href="./contact_page.html">Contact</a>
+                            </li>
+
+                        </ul>
+                    </div>
+
+                    <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
+                        <ul class="navbar-nav text-dark">
+                            <li class="nav-item ">
+                                <a class="custom-btn btn-primary btn " href="./enrollment.html">Join
+                                    StartNG</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+
+    </header>
+
+    <main>
+        <!-- Masthead Section -->
+        <header class="masthead text-center">
+            <h1 class="page-title">Certificate Request</h1>
+            <p>Enter your details correctly to request for your certificate</p>
+        </header>
+
+        <!-- Form Section -->
+        <section class="form-section container mb-3">
+            <!-- Request Form -->
+            <form class="cert-request" name="cert-request" action="" method="post" autocomplete="off" novalidate>
+                <fieldset class="form-fieldset form-group">
+                    <legend class="form-title">Graduants Details</legend>
+
+                    <!-- First Name Field -->
+                    <div class="form-group row">
+                        <label class="col-sm-3 form-control-label align-self-center" for="firstname">First Name</label>
+                        <div class="col-sm-9">
+                            <input class="form-control" id="firstname" type="text" name="firstname"
+                                placeholder="Enter first name" required>
+                            <div class="invalid-feedback" role="alert">This field is required, please enter your first
+                                name</div>
+                        </div>
+                    </div>
+
+                    <!-- Last Name Field -->
+                    <div class="form-group row">
+                        <label class="col-sm-3 form-control-label align-self-center" for="lastname">Last Name</label>
+                        <div class="col-sm-9">
+                            <input class="form-control" id="lastname" type="text" name="lastname"
+                                placeholder="Enter last name" required>
+                            <div class="invalid-feedback" role="alert">This field is required, please enter your last
+                                name</div>
+                        </div>
+                    </div>
+
+                    <!-- Internship ID Field -->
+                    <div class="form-group row">
+                        <label class="col-sm-3 form-control-label align-self-center" for="intern-id">Internship
+                            ID</label>
+                        <div class="col-sm-9">
+                            <input class="form-control" id="intern-id" type="text" name="intern-id"
+                                placeholder="Enter internship ID" required>
+                            <div class="invalid-feedback" role="alert">This field is required, please enter your
+                                internship ID</div>
+                        </div>
+                    </div>
+
+                    <!-- Track Field -->
+                    <div class="form-group row">
+                        <label class="col-sm-3 form-control-label align-self-center" for="track">Track</label>
+                        <div class="col-sm-9">
+                            <select class="custom-select" id="track" name="track" required>
+                                <option value="">Select track</option>
+                                <option value="ui/ux">UI/UX Design</option>
+                                <option value="frontend">Front End Development</option>
+                                <option value="backend">Back End Development</option>
+                                <option value="mobile">Mobile Development</option>
+                            </select>
+                            <div class="invalid-feedback" role="alert">This field is required, please select your track
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Year of Completion Field -->
+                    <div class="form-group row">
+                        <label class="col-sm-3 form-control-label align-self-center" for="yoc">Year of
+                            Completion</label>
+                        <div class="col-sm-9">
+                            <select class="custom-select" id="yoc" name="yoc" required>
+                                <option value="">Select year</option>
+                                <option value="2016">2016</option>
+                                <option value="2017">2017</option>
+                                <option value="2018">2018</option>
+                                <option value="2019">2019</option>
+                                <option value="2020">2020</option>
+                            </select>
+                            <div class="invalid-feedback" role="alert">This field is required, please select year of
+                                completion</div>
+                        </div>
+                    </div>
+
+                    <!-- Email Address Field -->
+                    <div class="form-group row">
+                        <label class="col-sm-3 form-control-label align-self-center" for="intern-email">Email
+                            Address</label>
+                        <div class="col-sm-9">
+                            <input class="form-control" id="intern-email" type="email" name="intern-email"
+                                placeholder="Enter your email address" required>
+                            <div class="invalid-feedback" role="alert">This field is required, please enter your email
+                                address</div>
+                        </div>
+                    </div>
+
+                    <!-- Phone Number Field -->
+                    <div class="form-group row">
+                        <label class="col-sm-3 form-control-label align-self-center" for="tel-format">Phone No</label>
+                        <div class="col-sm-9">
+                            <div class="d-flex">
+                                <select class="tel-format custom-select" id="tel-format" name="tel-format">
+                                    <option value="+234">+234</option>
+                                    <option value="+233">+233</option>
+                                    <option value="+254">+254</option>
+                                    <option value="+237">+237</option>
+                                    <option value="+1">+1</option>
+                                    <option value="+7">+7</option>
+                                    <option value="+44">+44</option>
+                                    <option value="+91">+91</option>
+                                </select>
+                                <input class="form-control" type="tel" name="phone-number"
+                                    placeholder="Enter your phone number">
+                            </div>
+                        </div>
+                    </div>
+                </fieldset>
+
+                <!-- Submit Button -->
+                <div class="d-flex justify-content-end">
+                    <input class="btn btn-primary" type="submit" value="Request Certificate">
+                </div>
+            </form>
+        </section>
+    </main>
+
+    <!--Footer begins-->
+    <!-- Footer starts here -->
+    <footer class="footer">
+        <div class="container custom-container mt-5 ">
+            <div class="row top justify-content-between">
+                <div class="col-md-3">
+                    <div class="logofooter">
+                        <a href="index.html"><img src="./images/certificate-request/group 12.png" alt="facebook"
+                                class="img-responsive" /></a>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3">
+                    <h5 class="py-3">Quick Links</h5>
+                    <ul class="links pl-0">
+                        <li><a href="../index.html">Home</a></li>
+                        <li class="py-1"><a href="curriculum.html">Curriculum</a></li>
+                        <li class="py-1"><a href="previous-techies.html">Previous Techies</a></li>
+                        <li class="py-1"><a href="faq.html">FAQ</a></li>
+                        <li class="py-1"><a href="request-certificates.html">Request Certificates</a></li>
+                        <li class="py-1"><a href="termsandconditions.html">Terms and Conditions</a></li>
+                    </ul>
+                </div>
+                <div class="col-6 col-md-2">
+                    <h5 class="py-3">Contact Us</h5>
+                    <p>
+                        <a href="#">Hello@start.ng</a>
+                    </p>
+
+                </div>
+                <div class="col-6 col-md-2">
+                    <h5 class="py-3">Office Address</h5>
+                    <p> 92, Wolverine Avenue,
+                        Ikeja, Lagos State, Nigeria.</p>
+
+                </div>
+
+                <div class="col-6 col-md-2">
+                    <h5 class="py-3">Follow Us</h5>
+                    <div class="pl-0">
+                        <a href="#"><img src="./images/certificate-request/facebook.png" alt="facebook"
+                                class="img-responsive" /></a>
+                        <a href="#"><img src="./images/certificate-request/twitter.png" alt="twitter"
+                                class="img-responsive" /></a>
+                    </div>
+                </div>
+            </div>
+
+            <hr>
+            <div class="section-bottom">
+                <div class="col-12 py-2 text-center">
+                    <p class="copyright">
+                        &copy 2020 StartNG. All Right Reserved
+                    </p>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+    <footer class="mobile-footer">
+        <div class="container custom-container mt-5">
+            <div class="row top justify-content-between">
+
+                <div class="col-6 col-md-3">
+                    <h5 class="py-3">Quick Links</h5>
+                    <ul class="links pl-0">
+                        <li><a href="./index.html">Home</a></li>
+                        <li class="py-1"><a href="curriculum.html">Curriculum</a></li>
+                        <li class="py-1"><a href="previous-techies.html">Previous Techies</a></li>
+                        <li class="py-1"><a href="./FAQ.html">FAQ</a></li>
+                        <li class="py-1"><a href="./certificate-request.html">Request Certificates</a></li>
+                        <li class="py-1"><a href="./Terms&Conditions.html">Terms and Conditions</a></li>
+                    </ul>
+                </div>
+                <div class="col-6 col-md-2">
+                    <h5 class="py-3">Contact Us</h5>
+                    <p>
+                        <a href="#">Hello@start.ng</a>
+                    </p>
+
+                    <div class=" d-md-block">
+                        <h5 class="py-3">Office Address</h5>
+                        <p> 92, Wolverine Avenue,
+                            Ikeja, Lagos State, Nigeria.</p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-6 logo ">
+                    <a href="index.html">
+                        <div class="logofooter">
+                            <a href="index.html"><img src="./images/certificate-request/group 12.png" alt="facebook"
+                                    class="img-responsive" /></a>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-6 col-md-2">
+                    <h5 class="py-3">Follow Us</h5>
+                    <div class="pl-0">
+                        <a href="#"><img src="./images/certificate-request/facebook.png" alt="facebook"
+                                class="img-responsive" /></a>
+                        <a href="#"><img src="./images/certificate-request/twitter.png" alt="twitter"
+                                class="img-responsive" /></a>
+                    </div>
+                </div>
+            </div>
+
+            <hr>
+            <div class="section-bottom">
+                <div class="col-12 py-2 text-center">
+                    <p class="copyright">
+                        &copy 2020 StartNG. All Right Reserved
+                    </p>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+    <!-- jQuery JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"
+        integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg=="
+        crossorigin="anonymous"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha512-I5TkutApDjnWuX+smLIPZNhw+LhTd8WrQhdCKsxCFRSvhFx2km8ZfEpNIhF9nq04msHhOkE8BMOBj5QE07yhMA=="
+        crossorigin="anonymous"></script>
+    <!-- Custom JS -->
+    <script src="js/certificate-request.js"></script>
+</body>
+
+</html>
