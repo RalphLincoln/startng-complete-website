@@ -19,6 +19,10 @@ body {
     font-style: normal;
 }
 
+.jj:hover {
+    color: #E7332B !important;
+}
+
 header {
     /* background: #F2EBE9 !important; */
     font-family: 'averta_demo_pe_cutted_demoRg' !important;

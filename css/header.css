@@ -16,12 +16,16 @@ header {
     transition: all 0.5s;
 }
 
+.jj:hover {
+    color: #E7332B !important;
+}
+
 header .h-btn {
     background: #E7332B;
     border-radius: 0;
 }
 
-@media screen and (min-width: 1000px ) {
+@media screen and (min-width: 1000px) {
     header .h-btn {
         margin-left: 130px;
     }

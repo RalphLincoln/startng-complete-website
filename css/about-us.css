@@ -25,6 +25,10 @@
     box-sizing: border-box;
 }
 
+.jj:hover {
+    color: #E7332B;
+}
+
 :root {
     font-size: 16px;
 }

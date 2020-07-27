@@ -198,6 +198,10 @@ footer .nav-link:hover {
     font-size: 20px;
 }
 
+.jj:hover {
+    color: #E7332B !important;
+}
+
 .twitter-link {
     color: var(--twitter-color);
     font-size: 20px;

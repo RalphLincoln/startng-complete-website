@@ -18,6 +18,10 @@ button a:hover {
   margin-top: 130px;
 }
 
+.jj:hover {
+  color: #E7332B !important;
+}
+
 div .red {
   color: #E7332B;
   font-size: 14px;

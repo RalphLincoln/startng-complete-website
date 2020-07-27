@@ -5,6 +5,10 @@ main {
   padding: 9rem 0rem 0rem 0rem;
 }
 
+.jj:hover {
+  color: #E7332B !important;
+}
+
 main .accordion {
   padding-bottom: 3.5rem;
 }
@@ -90,6 +94,7 @@ main .text__md h2 a {
   .second__section .second__section {
     padding-top: 8rem !important;
   }
+
   .second__section .second__section .content h2 {
     font-family: Averta-Bold;
     font-size: 18px;
@@ -100,7 +105,7 @@ main .text__md h2 a {
 }
 
 header {
-  background: rgba(242, 235, 233, 0.6);
+  /* background: rgba(242, 235, 233, 0.6); */
   font-family: myfont;
   transition: all 0.5s;
 }
@@ -129,9 +134,6 @@ header .h-btn {
   }
 }
 
-header {
-  background-color: #F2EBE9;
-}
 
 /* section 3 */
 .section-3 {
@@ -253,7 +255,7 @@ a {
 
 .header__text {
   width: 100%;
-  background: #f2ebe9;
+  /* background: #f2ebe9; */
   height: 25em;
   max-width: 100%;
   padding: 3rem 0rem;
@@ -283,6 +285,7 @@ a {
   .header__text {
     padding: 1rem 0rem;
   }
+
   .header__text h1 {
     width: 60%;
   }
@@ -292,8 +295,10 @@ a {
   .header__text {
     padding: 3rem 0rem;
   }
+
   .header__text h1 {
     width: 70%;
   }
 }
+
 /*# sourceMappingURL=index.css.map */

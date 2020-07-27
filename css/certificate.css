@@ -71,6 +71,10 @@ header .h-btn {
     background-size: cover;
 }
 
+.jj:hover {
+    color: #E7332B !important;
+}
+
 /* section 2 */
 .section-2 {
     margin-top: 5rem;

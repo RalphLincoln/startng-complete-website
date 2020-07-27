@@ -78,6 +78,10 @@ header .h-btn {
     place-items: center;
 }
 
+.jj:hover {
+    color: #E7332B !important;
+}
+
 .back {
     margin: 2em 0;
 }

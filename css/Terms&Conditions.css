@@ -8,6 +8,14 @@ body {
     margin: 0 1rem;
 }
 
+.foo:hover {
+    color: black;
+}
+
+.jj:hover {
+    color: #E7332B !important;
+}
+
 @font-face {
     font-family: "Averta-Black";
     src: url("./fonts/Averta.woff") format("woff"),
