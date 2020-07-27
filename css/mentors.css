@@ -1,26 +1,28 @@
 @font-face {
   font-family: "Averta-Regular";
   src: url("../fonts/Averta.woff") format("woff"),
-       url("../fonts/Averta.otf") format("opentype");
+    url("../fonts/Averta.otf") format("opentype");
   font-weight: normal;
 }
 
 @font-face {
   font-family: "Averta-Bold";
   src: url("../fonts/Averta-Bold.woff") format("woff"),
-       url("../fonts/Averta-Bold.otf") format("opentype");
+    url("../fonts/Averta-Bold.otf") format("opentype");
   font-weight: normal;
 }
 
 @font-face {
   font-family: "Averta-Semibold";
   src: url("../fonts/Averta-Semibold.woff") format("woff"),
-       url("../fonts/Averta-Semibold.otf") format("opentype");
+    url("../fonts/Averta-Semibold.otf") format("opentype");
   font-weight: normal;
 }
-html{
-  overflow-x: hidden; 
+
+html {
+  overflow-x: hidden;
 }
+
 body {
   overflow-x: hidden;
   font-family: Averta-Regular;
@@ -31,58 +33,58 @@ body {
 
 .active {
   color: #E7332B !important;
-  font-family: 'Averta-Bold'!important;
+  font-family: 'Averta-Bold' !important;
 }
 
 
 :root {
-    --primary-font: "Averta", sans-serif;
-    --primary-color: #514949;
-    --secondary-color: #E7332B;
-    --form-border-color: #0B0B0B;
-    --banner-bg-color: #F2EBE9;
-    --facebook-color: #3b5998;
-    --twitter-color: #00acee;
+  --primary-font: "Averta", sans-serif;
+  --primary-color: #514949;
+  --secondary-color: #E7332B;
+  --form-border-color: #0B0B0B;
+  --banner-bg-color: #F2EBE9;
+  --facebook-color: #3b5998;
+  --twitter-color: #00acee;
 }
 
 
 /* header */
 
 @font-face {
-    font-family: 'myfont';
-    src: url("/fonts/Averta.woff");
-    font-style: normal;
+  font-family: 'myfont';
+  src: url("/fonts/Averta.woff");
+  font-style: normal;
 }
 
 header {
-    background: rgba(242, 235, 233, 0.6);
-    font-family: myfont;
-    transition: all 0.5s;
+
+  font-family: myfont;
+  transition: all 0.5s;
 }
 
 header .h-btn {
-    background: #E7332B;
-    border-radius: 0;
+  background: #E7332B;
+  border-radius: 0;
 }
 
-@media screen and (min-width: 1000px ) {
-    header .h-btn {
-        margin-left: 130px;
-    }
+@media screen and (min-width: 1000px) {
+  header .h-btn {
+    margin-left: 105px;
+  }
 }
 
 /* navigation */
 
 header {
- font-family: Averta-Regular; 
+  font-family: Averta-Regular;
 }
 
 .navbar {
   text-transform: capitalize;
   /* font-weight: 700; */
   font-size: 16px !important;
-  letter-spacing: 0.1rem;
- background: #F2EBE9!important;
+  /* letter-spacing: 0.1rem; */
+  /* background: #F2EBE9 !important; */
 }
 
 
@@ -90,7 +92,7 @@ header {
   color: #514949;
   padding-top: 0.8rem;
   font-size: 16px !important;
-  font-family:  Averta-Regular !important;
+  font-family: Averta-Regular !important;
 }
 
 .nav-link:hover {
@@ -108,20 +110,21 @@ header {
   background: #E7332B;
   color: #fff;
 }
+
 /* mentor page */
 
 .mentor-intro {
   background: #F2EBE9;
   height: 306px;
- 
+
 }
- 
-.mentor-intro p{
-    font-size: 32px;
-    font-family: Averta-Bold;
-    width: 80%;
-    margin: 0 auto;
-    margin-bottom: 96px;
+
+.mentor-intro p {
+  font-size: 32px;
+  font-family: Averta-Bold;
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 96px;
 }
 
 .page-heading {
@@ -136,6 +139,7 @@ header {
 #mentor-gallery {
   margin-top: 98px;
 }
+
 .mentor-image {
   text-align: center;
 }
@@ -188,7 +192,7 @@ footer p {
   padding: 10px 0 10px 0;
 }
 
-footer a{
+footer a {
   font-family: Averta-Regular;
   font-size: 12px;
 }
@@ -238,47 +242,47 @@ footer a:hover {
 ------------------------------- */
 
 footer {
-    margin-top: 0px;
-    font-size: 14px;
-    line-height: 20px;
+  margin-top: 0px;
+  font-size: 14px;
+  line-height: 20px;
 }
 
 footer h4,
 .copyright {
-    font-weight: bold;
-    font-size: 16px;
-    line-height: 24px;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
 }
 
 footer h4 {
-    margin-bottom: 24px;
+  margin-bottom: 24px;
 }
 
 footer .nav-link {
-    padding-top: 4px;
-    padding-bottom: 4px;
-    color: var(--primary-color);
+  padding-top: 4px;
+  padding-bottom: 4px;
+  color: var(--primary-color);
 }
 
 footer .nav-link:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 .facebook-link {
-    color: var(--facebook-color) !important;
-    font-size: 20px;
+  color: var(--facebook-color) !important;
+  font-size: 20px;
 }
 
 .twitter-link {
-    color: var(--twitter-color) !important;
-    font-size: 20px;
+  color: var(--twitter-color) !important;
+  font-size: 20px;
 }
 
 .copyright {
-    font-weight: bold;
-    margin-top: 56px;
-    /* padding: 32px 0 46px; */
-    border-top: 0.7px solid #514949;
+  font-weight: bold;
+  margin-top: 56px;
+  /* padding: 32px 0 46px; */
+  border-top: 0.7px solid #514949;
 }
 
 
@@ -287,12 +291,12 @@ footer .nav-link:hover {
   margin: 0;
 }
 
-.mentor-detail * + * {
+.mentor-detail *+* {
   margin-top: 0.75em;
 }
 
 @media (min-width: 768px) {
-  .mentor-detail  {
+  .mentor-detail {
     margin-bottom: 5em;
   }
 
@@ -313,6 +317,7 @@ footer .nav-link:hover {
   -webkit-transition: 0.3s ease-in-out;
   transition: 0.3s ease-in-out;
 }
+
 .mentor-detail:hover img {
   -webkit-transform: scale(1.3);
   transform: scale(1.3);
@@ -353,14 +358,16 @@ footer .nav-link:hover {
   text-align: center;
   color: #514949;
 }
+
 @media (min-width: 500px) {
   .big-heading {
     font-family: Averta-Bold;
     font-size: 1em;
   }
 }
+
 @media (min-width: 768px) {
-  
+
 
   .mentor-name {
     font-family: Averta-Bold;
@@ -399,7 +406,7 @@ footer .nav-link:hover {
 
 /* media queries */
 
-@media (max-width: 767px){
+@media (max-width: 767px) {
 
   .mentor-intro {
     height: 180px;
@@ -410,10 +417,10 @@ footer .nav-link:hover {
   }
 
   .mentor-info {
-  padding: 0 20px ;
-}
+    padding: 0 20px;
+  }
 
-  .mentor-intro p{
+  .mentor-intro p {
     font-size: 14px;
     font-family: Averta-Regular;
     width: 100%;
@@ -432,15 +439,16 @@ footer .nav-link:hover {
   #enroll {
     height: 201px;
     padding: 10px 0 153px 0;
-}
-#enroll .container {
-  margin: 0;
-  padding: 0;
-}
+  }
 
-#enroll-content {
-  height: 200px;
-}
+  #enroll .container {
+    margin: 0;
+    padding: 0;
+  }
+
+  #enroll-content {
+    height: 200px;
+  }
 
   #enroll-content p {
     font-size: 16px;

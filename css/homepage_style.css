@@ -1,77 +1,93 @@
-#bgcolornavbar{
+#bgcolornavbar {
   background-color: #F2EBE9;
 }
-button{
+
+button {
   background-color: #E7332B;
 }
 
-button a{
+button a {
   color: #ffffff;
-  font-size: 12px;
 }
 
-#centered{
+button a:hover {
+  color: white;
+}
+
+#centered {
   margin-top: 130px;
 }
 
-div .red{
+div .red {
   color: #E7332B;
   font-size: 14px;
 }
-div .card-body h5{
+
+div .card-body h5 {
   color: #514949;
   font-size: 15px;
 }
-div .mentorparg{
+
+div .mentorparg {
   font-size: 25px;
   font-weight: bold;
   color: #514949;
 }
-.mobile{
+
+.mobile {
   display: none;
 }
-div .card-body .cardpfontsize{
+
+div .card-body .cardpfontsize {
   font-size: 12px;
 }
 
-div .card-body .card-text{
+div .card-body .card-text {
   font-size: 14px;
 }
-div .card-body .card-title{
-  color:#514949;
+
+div .card-body .card-title {
+  color: #514949;
 }
-div .mentorspargfont{
+
+div .mentorspargfont {
   font-size: 13px;
   color: #514949;
 }
-nav .move{
+
+nav .move {
   display: flex;
   justify-content: center;
 }
 
-.black{
+.black {
   background-color: #000000;
   margin-top: 100px;
   margin-bottom: 20px;
 }
 
 @media (min-device-width:360px) and (max-width:640px) {
-  div .row #none{
+  div .row #none {
     display: none;
   }
-  #centered{
+
+  #centered {
     margin-top: 50px;
   }
-  .mobile{
+
+  .mobile {
     display: block;
   }
-  #desktop3{
+
+  #desktop3 {
     display: none;
   }
-  #desktop{
+
+  #desktop {
     display: none;
   }
-  #desktop2{
+
+  #desktop2 {
     display: none;
   }
 }
@@ -84,47 +100,47 @@ body {
 
 /* footer styles */
 footer {
-    margin-top: 121px;
-    font-size: 14px;
-    line-height: 20px;
+  margin-top: 121px;
+  font-size: 14px;
+  line-height: 20px;
 }
 
 footer h4,
 .copyright {
-    font-weight: bold;
-    font-size: 16px;
-    line-height: 24px;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
 }
 
 footer h4 {
-    margin-bottom: 24px;
+  margin-bottom: 24px;
 }
 
 footer .nav-link {
-    padding-top: 4px;
-    padding-bottom: 4px;
-    color: var(--primary-color);
+  padding-top: 4px;
+  padding-bottom: 4px;
+  color: var(--primary-color);
 }
 
 footer .nav-link:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 .facebook-link {
-    color: var(--facebook-color);
-    font-size: 20px;
+  color: var(--facebook-color);
+  font-size: 20px;
 }
 
 .twitter-link {
-    color: var(--twitter-color);
-    font-size: 20px;
+  color: var(--twitter-color);
+  font-size: 20px;
 }
 
 .copyright {
-    font-weight: bold;
-    margin-top: 56px;
-    padding: 32px 0 46px;
-    border-top: 0.7px solid #514949;
+  font-weight: bold;
+  margin-top: 56px;
+  padding: 32px 0 46px;
+  border-top: 0.7px solid #514949;
 }
 
 /* end of footer styles */
