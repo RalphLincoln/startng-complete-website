@@ -20,7 +20,7 @@ body {
 }
 
 header {
-    background: #F2EBE9 !important;
+    /* background: #F2EBE9 !important; */
     font-family: 'averta_demo_pe_cutted_demoRg' !important;
     transition: all 0.5s;
 }
@@ -47,11 +47,6 @@ main {
         url('../fonts/avertademopecutteddemo-regular-webfont.woff') format('woff');
     font-style: normal;
 
-}
-
-/* home and header */
-header {
-    background-color: #F2EBE9;
 }
 
 .home1 {
