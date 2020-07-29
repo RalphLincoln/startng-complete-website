@@ -95,8 +95,8 @@ header .h-btn {
     position: absolute;
     width: 7px;
     height: 7px;
-    left: 30px;
-    /* top: 200px; */
+    left: 59px;
+     top: -1px;
     background-color: #E7332B;
     border-radius: 50%;
 
@@ -179,18 +179,13 @@ header .h-btn {
           font-size: 1rem;
       }
 
-      .curriculum-link, .date-text{
+      .curriculum-link{
         font-size: 0.8rem;
       }
 
       .page-text{
           font-size: 0.875rem;
       }
-
-     .tutor-img{
-         display: block;
-         /* width: 50%;   */     /* Remove this property it's not needed */
-     }
   }
 
   .container {
