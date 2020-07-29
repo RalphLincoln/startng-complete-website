@@ -4,11 +4,28 @@
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta charset="utf-8">
+  <!-- SEO IMPLEMENTATION -->
+  <meta name="keywords"
+    content="startNg, hotel.ng,HNG, Africa,Technology, software-engineering, front end, Backend, UI/UX, full-stack ">
+  <meta name="description"
+    content="A Nigerian based software-engineering training provider with the goal of crafting the next generation of highly capable and competent software engineers and solution providers.Our core focus are frontend, backend UI/UX and mobile app developers " />
+  <meta name="rating" content="General" />
+  <meta name="ROBOTS" content="ALL" />
+  <meta name="googlebot" content="FOLLOW" />
+  <META NAME="geo.region" CONTENT="Nigeria S/W">
+  <meta http-equiv="content-Type" content="text/html; charset=iso-8859-1" />
+
+  <!--font awesome-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
   <!-- homepage_style.css -->
   <link rel="stylesheet" href="css/homepage_style.css">
   <!-- header.css -->
   <!-- <link rel="stylesheet" href="css/header.css"> -->
   <link rel="stylesheet" href="./css/techies.css">
+
+  <link rel="stylesheet" href="./css/footer.css">
+
+  <link rel="stylesheet" href="./css/header.css">
   <!-- bootstrap cdn -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
     integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
@@ -23,63 +40,60 @@
   <!-- ===================header section -->
 
 
-  <section style="background: rgba(242, 235, 233, 0.6);; background-repeat: no-repeat; background-attachment: fixed; background-position:
-        center center; background-size: cover;">
+  <section class="headerBg">
 
     <!-- * THIS IS THE BEGINING OF THE NAVBAR -->
 
-    <!-- Header -->
     <header>
       <div class="container">
         <nav class="navbar navbar-expand-lg navbar-light navigation py-5 px-1">
-          <a class="navbar-brand" href="#"><img src="./images/past-techies/Group 12.png" alt="logo"></a>
-
+          <a class="navbar-brand" href="./index.html"><img src="./images/past-techies/Group 12.png" alt="logo"></a>
           <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId"
             aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation"> <i
               style="color: #E7332B;" class="fas fa-bars"></i></button>
           <div class="collapse navbar-collapse" id="collapsibleNavId">
             <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
               <li class="nav-item">
-                <a class="nav-link jj ml-lg-3" href="./index.html">Home</a>
+                <a class="nav-link ml-lg-3 text-danger" href="./index.html">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link jj ml-lg-3" href="./curriculumn-v1.html">Curriculum</a>
+                <a class="nav-link ml-lg-3" href="./curriculumn-v1.html">Curriculum</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link jj ml-lg-3" href="pastTechies.html">Previous Techies</a>
+                <a class="nav-link ml-lg-3" href="pastTechies.html">Previous Techies</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link jj ml-lg-3" href="./mentors.html">Mentors</a>
+                <a class="nav-link ml-lg-3" href="./mentors.html">Mentors</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link jj ml-lg-3" href="./contact_page.html">Contact</a>
+                <a class="nav-link ml-lg-3" href="./contact_page.html">Contact</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link jj btn mt-3 mt-lg-0 h-btn px-4 text-white" href="./enrollment.html">Join
+                <a class="nav-link btn mt-3 mt-lg-0 h-btn px-4 text-white" href="./enrollment.html">Join
                   StartNG</a>
               </li>
             </ul>
           </div>
         </nav>
-
       </div>
     </header>
+    <!-- * THIS IS THE END OF THE NAVBAR -->
 
 
     <div class="container">
       <div class="row">
-        <div id="centered" class="col-md-6">
-          <h4 class="pl-3 pr-5" style="color:#514949; font-size: 32px;">Gain enough Knowledge to help scale through the
+        <div id="centered" class="col-md-5 offset-md-1">
+          <h4 class="pl-3 pr-5 headerH4">Gain enough Knowledge to help scale through the
             tech industry
             <br> for free.</h4>
-          <p class="pt-3 pb-5 pl-3 pr-5" style="color:#514949;">I should be incapable of drawing a single stroke at the
+          <p class="pt-3 pb-5 headerP pl-3 pr-5">I should be incapable of drawing a single stroke at the
             present moment; and yet I feel that I never was a greater artist than now.</p>
           <div class="container d-flex">
-            <button type="button" style="font-size: 16px; " name="button"
-              class="rounded-0 pl-3 pr-3 pt-2 pb-2 border-0"><a style="text-decoration: none !important;"
-                href="./enrollment.html">Enroll
+            <button type="button" name="button" class="rounded-0 pl-3 headerBtn pr-3 pt-2 pb-2 border-0"><a
+                class="headerTag" href="./enrollment.html">Enroll
                 Today</a></button>
           </div>
+
         </div>
         <div class="col-md-6 pt-5 d-flex justify-content-center" data-aos="zoom-in" data-aos-duration="2000">
           <img id="none" class="img-fluid" src="images/homepage/Rectangle 22.png" width="70%" alt="">
@@ -87,18 +101,19 @@
       </div>
     </div>
     <div class="container pb-5">
-      <div class="row">
-        <div class="col-xs-4 d-flex justify-content-center pl-2 pr-5 pt-4">
-          <a href="#"><img width="90%" src="images/homepage/hotels-logo_x3icbw 1.png" alt=""></a>
-        </div>
-        <div class="col-xs-4 d-flex justify-content-center pr-5 pt-4">
-          <a href="#"><img width="90%" src="images/homepage/flutterwave-logo_nyv9ue 1.png" alt=""></a>
-        </div>
+        <div class="row">
+          <div class="col-xs-4 d-flex justify-content-center pl-2 pt-4">
+              <a href="#"><img width="80%" src="images/homepage/Vector (4).png" alt=""></a>
+              </div>
         <div class="col-xs-4 d-flex justify-content-center pt-4">
-          <a href="#"><img width="90%" src="images/homepage/verifi-logo_nfckrw 1.png" alt=""></a>
+              <a href="#"><img width="80%" src="images/homepage/Vector (2).png" alt=""></a>
+              </div>
+        <div class="col-xs-4 d-flex justify-content-center pt-4">
+              <a href="#"><img width="80%" src="images/homepage/Vector (3).png" alt=""></a>
+          </div>
         </div>
-      </div>
-    </div>
+        </div>
+
   </section>
 
 
@@ -206,9 +221,8 @@
       </div>
 
       <div class="container pt-5 pl-3 pr-3 mobile">
-        <button type="button" name="button" class="rounded-0 pl-3 pr-3 pt-2 pb-2 border-0"
-          style="background-color:#E7332B; font-size: 16px;"><a style="text-decoration: none !important;"
-            href="./curriculumn-v1.html">View
+        <button type="button" name="button" class="rounded-0 carouselBtn pl-3 pr-3 pt-2 pb-2 border-0"><a
+            class="headerTag" href="./curriculumn-v1.html">View
             Curriculum</a></button>
       </div>
 
@@ -216,78 +230,81 @@
 
       <!-- =====================This only appears 0n desktop and tablet screen============================ -->
       <div class="container">
-        <div id="desktop" class="row pt-5 pb-5" data-aos="fade-down-left" data-aos-duration="2000">
-          <div class="col-md-2 col-sm-4 d-flex justify-content-center pt-2">
-            <div class="card" style="width: 10em; background-color:#F0F6F6;">
-              <div class="pt-4 pl-3 pb-5">
-                <img width="20%" src="images/homepage/iwwa_remote-control-o.png" alt=""></div>
-              <div class="card-body ">
-                <p class="card-title pb-4">Fully Remote</p>
+        <div class="row">
+          <div id="desktop" class="row pt-5 pb-5" data-aos="fade-down-left" data-aos-duration="2000">
+            <div class="col-md-2 col-sm-4  pt-2">
+              <div class="card jg">
+                <div class="pt-4 pl-3 pb-5">
+                  <img width="20%" src="images/homepage/iwwa_remote-control-o.png" alt=""></div>
+                <div class="card-body ">
+                  <p class="card-title pb-4">Fully Remote</p>
+                </div>
               </div>
             </div>
-          </div>
-          <div class="col-md-2 d-flex justify-content-center pt-2">
-            <div class="card" style="width: 10rem; background-color:#F2EBE9;">
-              <div class="pt-4 pl-3 pb-5">
-                <img width="20%" src="images/homepage/clarity_briefcase-line.png" alt="">
-              </div>
+            <div class="col-md-2  pt-2">
+              <div class="card" style="width: 100%; background-color:#F2EBE9;">
+                <div class="pt-4 pl-3 pb-5">
+                  <img width="20%" src="images/homepage/clarity_briefcase-line.png" alt="">
+                </div>
 
-              <div class="card-body">
-                <p class="card-title">Hands-on Experience</p>
+                <div class="card-body">
+                  <p class="card-title">Hands-on Experience</p>
 
+                </div>
               </div>
             </div>
-          </div>
-          <div class="col-md-2 d-flex justify-content-center pt-2">
-            <div class="card" style="width: 10rem; background-color:#DCF4F8;">
-              <div class="pt-4 pl-3 pb-5">
-                <img width="20%" src="images/homepage/carbon_network-1.png" alt="">
-              </div>
-              <div class="card-body">
-                <p class="card-title">Collaborative Learning</p>
+            <div class="col-md-2  pt-2">
+              <div class="card" style="width: 100%; background-color:#DCF4F8;">
+                <div class="pt-4 pl-3 pb-5">
+                  <img width="20%" src="images/homepage/carbon_network-1.png" alt="">
+                </div>
+                <div class="card-body">
+                  <p class="card-title">Collaborative Learning</p>
 
+                </div>
               </div>
             </div>
-          </div>
-          <div class="col-md-2 d-flex justify-content-center pt-2">
-            <div class="card" style="width: 10rem; background-color:#FFE3E1;">
-              <div class="pt-4 pl-3 pb-5">
-                <img width="20%" src="images/homepage/clarity_atom-line.png" alt="">
-              </div>
-              <div class="card-body">
-                <p class="card-title pb-4">Real-life Projects</p>
+            <div class="col-md-2  pt-2">
+              <div class="card" style="width: 100%; background-color:#FFE3E1;">
+                <div class="pt-4 pl-3 pb-5">
+                  <img width="20%" src="images/homepage/clarity_atom-line.png" alt="">
+                </div>
+                <div class="card-body">
+                  <p class="card-title pb-4">Real-life Projects</p>
 
+                </div>
               </div>
             </div>
-          </div>
-          <div class="col-md-2 d-flex justify-content-center pt-2">
-            <div class="card" style="width: 10rem; background-color:#F0DCF8;">
-              <div class="pt-4 pl-3 pb-5">
-                <img width="20%" src="images/homepage/clarity_user-line.png" alt="">
-              </div>
-              <div class="card-body">
-                <p class="card-title">Beginner Friendly</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-2 d-flex justify-content-center pt-2">
-            <div class="card" style="width: 10rem; background-color:#EFFFF4;">
-              <div class="pt-4 pl-3 pb-5">
-                <img width="20%" src="images/homepage/clarity_users-outline-alerted.png" alt="">
-              </div>
-              <div class="card-body">
-                <p class="card-title pb-4">Mentorship</p>
+            <div class="col-md-2  pt-2">
+              <div class="card" style="width: 100%; background-color:#F0DCF8;">
+                <div class="pt-4 pl-3 pb-5">
+                  <img width="20%" src="images/homepage/clarity_user-line.png" alt="">
+                </div>
+                <div class="card-body">
+                  <p class="card-title">Beginner Friendly</p>
+                </div>
               </div>
             </div>
-          </div>
-          <div class="">
-            <div class="container pt-5 pl-3 pr-3">
-              <button type="button" name="button" class="rounded-0 pl-3 pr-3 pt-2 pb-2 border-0"
-                style="background-color:#E7332B;"><a style="text-decoration: none !important;" href="#">View
-                  Curriculum</a></button>
+            <div class="col-md-2  pt-2">
+              <div class="card" style="width: 100%; background-color:#EFFFF4;">
+                <div class="pt-4 pl-3 pb-5">
+                  <img width="20%" src="images/homepage/clarity_users-outline-alerted.png" alt="">
+                </div>
+                <div class="card-body">
+                  <p class="card-title pb-4">Mentorship</p>
+                </div>
+              </div>
+            </div>
+            <div class="">
+              <div class="container pt-5 pl-3 pr-3">
+                <button type="button" name="button" class="rounded-0 carouselBtn pl-3 pr-3 pt-2 pb-2 border-0"><a
+                    class="headerTag" href="#">View
+                    Curriculum</a></button>
+              </div>
             </div>
           </div>
         </div>
+
       </div>
 
       <!-- ====================================The upper codes only appear only desktop screens========================================= -->
@@ -302,17 +319,15 @@
             <p class="pt-5 red">SCOPE OF PROGRAM</p>
           </div>
           <div class="col-md-6">
-            <p style="font-size: 24px; font-family: Averta-Bold; color:#514949;">Here is the list of
+            <p class="sectP">Here is the list of
               areas that will be explored in
               <br> training.</p>
           </div>
           <div class="col-md-6">
             <div id=desktop3>
-              <div class="container d-flex justify-content-end">
-                <button type="button" name="button" class="rounded-0 pl-3 pr-3 pt-2 pb-2 border-0"
-                  style="background-color:#E7332B;"><a
-                    style="color:#ffffff; font-size:16px; text-decoration: none !important;"
-                    href="./enrollment.html">Enroll
+              <div class="container d-flex justify-content-end p-0">
+                <button type="button" name="button" class="rounded-0 sectBtn pl-3 pr-3 pt-2 pb-2 border-0"><a
+                    href="./enrollment.html" class="sectTag">Enroll
                     Today</a></button>
               </div>
             </div>
@@ -386,8 +401,8 @@
 
         <div class="mobile">
           <div class="container pt-5 pl-3 pr-3 d-flex justify-content-center">
-            <button type="button" name="button" class="rounded-0 pl-3 pr-3 pt-2 pb-2 border-0"
-              style="background-color:#E7332B;"><a href="#">View Curriculum</a></button>
+            <button type="button" name="button" class="rounded-0 carouselBtn pl-3 pr-3 pt-2 pb-2 border-0"><a
+                href="#">View Curriculum</a></button>
           </div>
         </div>
         <!--==================================== This code above appears only on mobile screens=============================================== -->
@@ -396,7 +411,7 @@
         <!-- ====================================The code below appears only on desktop screens=============================================== -->
         <div class="row pb-5" id="desktop2">
           <div class="col-md-4 pt-5 d-flex justify-content-center">
-            <div class="card" style="width: 20rem;">
+            <div class="card" style="width: 100%;">
               <div class="card-body">
                 <h5 style="font-size: 18px;" class="card-title">Frontend Development</h5>
                 <p class="card-text pt-3">I should be incapable of drawing a single stroke at the present moment; and
@@ -407,7 +422,7 @@
             </div>
           </div>
           <div class="col-md-4 pt-5 d-flex justify-content-center">
-            <div class="card" style="width: 20rem;">
+            <div class="card" style="width: 100%;">
               <div class="card-body">
                 <h5 style="font-size: 18px;" class="card-title">Backend Development</h5>
                 <p class="card-text pt-3">I should be incapable of drawing a single stroke at the present moment; and
@@ -418,7 +433,7 @@
             </div>
           </div>
           <div class="col-md-4 pt-5 d-flex justify-content-center">
-            <div class="card" style="width: 20rem;">
+            <div class="card" style="width: 100%;">
               <div class="card-body">
                 <h5 style="font-size: 18px;" class="card-title">UX/UI Design</h5>
                 <p class="card-text pt-3">I should be incapable of drawing a single stroke at the present moment; and
@@ -429,7 +444,7 @@
             </div>
           </div>
           <div class="col-md-4 pt-5 d-flex justify-content-center">
-            <div class="card" style="width: 20rem;">
+            <div class="card" style="width: 100%;">
               <div class="card-body">
                 <h5 style="font-size: 18px;" class="card-title">Mobile Development</h5>
                 <p class="card-text pt-3">I should be incapable of drawing a single stroke at the present moment; and
@@ -450,26 +465,26 @@
       <div class="row">
         <div class="col-md-12 pb-2 pt-3">
           <p class="pt-5 pb-3 d-flex justify-content-center red">OUR MENTORS</p>
-          <p style="font-size: 24px;" class="d-flex justify-content-center mentorparg">Here is the list of startNG
+          <p class="d-flex list justify-content-center mentorparg">Here is the list of startNG
             mentors</p>
         </div>
         <div class="col-md-3 pt-2" data-aos="flip-left" data-aos-duration="1000">
-          <img width="100%" src="images/homepage/Rectangle 17.png" alt="">
+          <img width="100%" src="images/homepage/Rectangle 17.jpg" alt="">
           <p class="pt-2" style="font-weight:bold; color:#514949;">Oladele Motunrayo</p>
           <p class="mentorspargfont">Frontend Developer</p>
         </div>
         <div class="col-md-3 pt-2" data-aos="flip-left" data-aos-duration="2000">
-          <img width="100%" src="images/homepage/Rectangle 18.png" alt="">
+          <img width="100%" src="images/homepage/Rectangle 18.jpg" alt="">
           <p class="pt-2" style="font-weight:bold; color:#514949;">Oladele Motunrayo</p>
           <p class="mentorspargfont">Backend Developer</p>
         </div>
         <div class="col-md-3 pt-2" data-aos="flip-left" data-aos-duration="2500">
-          <img width="100%" src="images/homepage/Rectangle 19.png" alt="">
+          <img width="100%" src="images/homepage/Rectangle 19.jpg" alt="">
           <p class="pt-2" style="font-weight:bold; color:#514949;">Oladele Motunrayo</p>
           <p class="mentorspargfont">Mobile Developer</p>
         </div>
         <div class="col-md-3 pt-2" data-aos="flip-left" data-aos-duration="3000">
-          <img width="100%" src="images/homepage/Rectangle 20.png" alt="">
+          <img width="100%" src="images/homepage/Rectangle 20.jpg" alt="">
           <p class="pt-2" style="font-weight:bold; color:#514949;">Oladele Motunrayo</p>
           <p class="mentorspargfont">UI/UX Designer</p>
         </div>
@@ -480,7 +495,7 @@
     <!-- ################################################################# -->
     <!-- THIS IS FOR THEN IMAGE OVERLAY.............. -->
 
-    <section class="container-fluid pt-4 pb-4 mt-5">
+    <!-- <section class="container-fluid pt-4 pb-4 mt-5">
       <div style="background-image: url('./images/Contact-form/bg.png'); background-repeat: no-repeat;  background-position:
         center center; background-size: cover; background-size: 1000px 500px;">
         <div class="container-fluid pt-5 pb-5">
@@ -488,6 +503,19 @@
             industry like a pro </p>
           <div class="text-center">
             <button style="background-color: #E7332B;" class="btn text-white">Enroll Today</button>
+          </div>
+        </div>
+      </div>
+    </section> -->
+
+    <section class="mt-5 enroll">
+      <div class="container mb-5">
+        <div class="row">
+          <div class="col-md-12 text-center">
+            <div class="bg">
+              <h3 class="mb-5  text-white">Break into the tech industry like a Pro</h3>
+              <a href="./enrollment.html" class=" custom-btn text-decoration-none" type="button">Enroll Today</a>
+            </div>
           </div>
         </div>
       </div>
@@ -499,6 +527,8 @@
     <!-- ==========================The code above appears on all screens=============================== -->
 
 
+
+    <!-- Footer Section -->
     <footer class="container">
       <div class="row">
         <div class="col-sm-6 col-lg-2 pb-4">
@@ -509,12 +539,25 @@
         <div class="col-sm-6 col-lg-3 pb-4">
           <h4>Quick Links</h4>
           <ul class="navbar-nav">
-            <li class="nav-item"><a class="nav-link" href="./index.html">Home</a></li>
-            <li class="nav-item"><a class="nav-link" href="./curriculumn-v1.html">Curriculum</a></li>
-            <li class="nav-item"><a class="nav-link" href="./pastTechies.html">Previous Techies</a></li>
-            <li class="nav-item"><a class="nav-link" href="./FAQ.html">FAQ</a></li>
-            <li class="nav-item"><a class="nav-link" href="./certificate-request.html">Request Certificates</a></li>
-            <li class="nav-item"><a class="nav-link" href="./Terms&Conditions.html">Terms and Conditions</a></li>
+            <div class="row">
+              <div class="col-6">
+
+                <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="about-us.html">About Us</a></li>
+                <li class="nav-item"><a class="nav-link" href="courses.html">Courses</a></li>
+                <li class="nav-item"><a class="nav-link" href="curriculum-v1.html">Curriculum</a></li>
+                <li class="nav-item"><a class="nav-link" href="mentors.html">Mentors</a></li>
+                <li class="nav-item"><a class="nav-link" href="certificate-request.html">Request Certificates</a></li>
+              </div>
+              <div class="col-6">
+                <li class="nav-item"><a class="nav-link" href="FAQ.html">FAQ</a></li>
+                <li class="nav-item"><a class="nav-link" href="pastTechies.html">Previous Techies</a></li>
+                <li class="nav-item"><a class="nav-link" href="past_project.html">Past Projects</a></li>
+                <li class="nav-item"><a class="nav-link" href="forum.html">Forum</a></li>
+                <li class="nav-item"><a class="nav-link" href="policy.html">Privacy Policy</a></li>
+                <li class="nav-item"><a class="nav-link" href="Terms&Conditions.html">Terms and Conditions</a></li>
+              </div>
+            </div>
           </ul>
         </div>
 
@@ -540,12 +583,17 @@
           <h4>Follow Us</h4>
 
           <a class="facebook-link d-inline-block mr-3" href="https://www.facebook.com" target="_blank">
-            <img class="pr-3" src="images/homepage/036-facebook 1.png" alt="">
-
+            <span>
+              <span class="fab fa-facebook-square" aria-hidden="true"></span>
+              <span class="sr-only">Facebook</span>
+            </span>
           </a>
 
           <a class="twitter-link d-inline-block" href="https://www.twitter.com" target="_blank">
-            <img src="images/homepage/008-twitter 1.png" alt="">
+            <span>
+              <span class="fab fa-twitter" aria-hidden="true"></span>
+              <span class="sr-only">Twitter</span>
+            </span>
           </a>
         </div>
       </div>
@@ -557,7 +605,6 @@
         </div>
       </div>
     </footer>
-
 
     <!-- ==========================End of Footer Section================================ -->
 

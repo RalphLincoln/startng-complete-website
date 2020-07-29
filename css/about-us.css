@@ -25,7 +25,7 @@
     box-sizing: border-box;
 }
 
-.jj:hover {
+.n-links:hover {
     color: #E7332B;
 }
 
@@ -47,7 +47,7 @@ html {
 
 /* NAVBAR LINK */
 header {
-    background: rgba(242, 235, 233, 0.6);
+    /* background: rgba(242, 235, 233, 0.6); */
     font-family: 'Averta-Regular';
     transition: all 0.5s;
 }
@@ -59,6 +59,14 @@ header {
 header .h-btn {
     background: #E7332B;
     border-radius: 0;
+}
+
+.headerSect {
+    background: rgba(242, 235, 233, 0.6);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
 }
 
 /* HERO SECTION */
@@ -81,7 +89,7 @@ header .h-btn {
 .sub-heading {
     font-family: 'Averta-Regular';
     font-weight: 600;
-    font-size: 0.875rem;
+    font-size: 14px;
     line-height: 1.5rem;
     color: #E7332B;
     text-transform: uppercase;
@@ -90,7 +98,7 @@ header .h-btn {
 .para-text {
     font-family: 'Averta-Regular';
     font-weight: 500;
-    font-size: 1rem;
+    font-size: 16px;
     line-height: 150%;
     color: #514949;
     opacity: 0.9;
@@ -100,7 +108,7 @@ hr {
     border: 0.7px solid rgba(81, 73, 73, 0.4) !important;
 }
 
-ul {
+.ul {
     list-style-type: none;
     line-height: 32px;
     font-size: 1em;
@@ -151,7 +159,9 @@ li {
 
 
 
-
+.fonty {
+    font-family: Averta-Bold;
+}
 
 
 
@@ -221,4 +231,11 @@ footer .nav-link:hover {
     .header {
         padding-bottom: 50px;
     }
+}
+
+.container {
+    max-width: 1238px !important;
+    overflow: hidden !important;
+    padding-left: 1.5rem !important;
+    padding-right: 1.5rem !important;
 }

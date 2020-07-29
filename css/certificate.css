@@ -33,6 +33,7 @@ header .h-btn {
     border-radius: 0;
 }
 
+
 @media screen and (min-width: 1000px) {
     header .h-btn {
         margin-left: 100px;
@@ -51,6 +52,17 @@ header .h-btn {
     padding: 2rem 0 5rem 0;
     margin: auto;
     max-width: 600px;
+}
+
+.intro-txt1 {
+    font-size: 14px;
+    color: #E7332B;
+    font-family: Averta;
+}
+
+.intro-txt2 {
+    font-family: Averta-Bold;
+    font-size: 32px;
 }
 
 .intro-text p {
@@ -421,4 +433,11 @@ img {
     .subsect3 h5 {
         font-size: 18px;
     }
+}
+
+.container {
+    max-width: 1238px !important;
+    overflow: hidden !important;
+    padding-left: 1.5rem !important;
+    padding-right: 1.5rem !important;
 }

@@ -42,11 +42,6 @@ textarea {
 	border: 1px solid rgba(81, 73, 73, 0.5) !important;
 }
 
-header {
-	background: #f2ebe9;
-	/*padding-bottom: 26em!important; */
-}
-
 
 .custom-btn {
 	background-color: #E7332B;
@@ -79,13 +74,16 @@ header {
 	height: 285px !important;
 }
 
-
+.fonty {
+	font-family: Averta-bold;
+}
 
 .contact-form__location {
 	flex-direction: column;
 	/*align-items: flex-end;*/
 	justify-content: space-between;
 	/*overflow: hidden;*/
+	font-size: 16px;
 }
 
 .bg {
@@ -156,7 +154,7 @@ footer .nav-link:hover {
 
 @media screen and (min-width: 1000px) {
 	header .h-btn {
-		margin-left: 130px;
+		margin-left: 130px !important;
 	}
 }
 
@@ -187,6 +185,7 @@ footer .nav-link:hover {
 		background: #f2ebe9;
 		padding: 8em 0;
 		text-align: center;
+		font-size: 18px;
 	}
 
 	.custom-textarea {
@@ -259,3 +258,10 @@ footer .nav-link:hover {
 
 
 @media only screen and (max-width: 1200px) {}
+
+.container {
+	max-width: 1238px !important;
+	overflow: hidden !important;
+	padding-left: 1.5rem !important;
+	padding-right: 1.5rem !important;
+}

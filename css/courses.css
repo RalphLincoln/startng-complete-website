@@ -13,10 +13,54 @@
 }
 
 @font-face {
-	font-family: "Averta";
-	src: url("../fonts/Averta-Semibold.woff") format("woff"),
-		url("../fonts/Averta-Semibold.otf") format("opentype");
+	font-family: "Averta-bold";
+	src: url("../fonts/Averta-Bold.woff") format("woff"),
+		url("../fonts/Averta-Bold.otf") format("opentype");
 	font-weight: 600;
+}
+
+.html {
+	font-size: 14px !important;
+	line-height: 24px;
+}
+
+.python {
+	font-size: 16px !important;
+	line-height: 24px;
+}
+
+.javaScripts {
+	font-size: 16px !important;
+	line-height: 24px;
+}
+
+.rubs {
+	font-size: 16px !important;
+	line-height: 24px;
+}
+
+.gos {
+	font-size: 16px !important;
+	line-height: 24px;
+}
+
+.cs {
+	font-size: 16px !important;
+	line-height: 24px;
+}
+
+.btn {
+	padding: 11px 28px;
+	font-size: 16px;
+}
+
+.skills {
+	font-size: 18px;
+	font-family: Averta-bold;
+}
+
+.parag {
+	font-size: 16px;
 }
 
 
@@ -47,11 +91,7 @@ header {
 	/*padding-bottom: 26em!important; */
 }
 
-.contact {
-	/*margin-top: -22em;*/
-	/*position: relative;
-	bottom: 22em;*/
-}
+
 
 .custom-btn {
 	background-color: #E7332B;
@@ -84,15 +124,7 @@ header {
 	height: 285px !important;
 }
 
-.contact-form {
-	/*flex-direction: column;*/
-	/*align-items: flex-end;*/
-	/*justify-content: space-between;*/
-}
 
-.contact-form__form {
-	/*align-self: ;*/
-}
 
 .contact-form__location {
 	flex-direction: column;
@@ -219,13 +251,6 @@ footer .nav-link:hover {
 		padding-bottom: 0 !important;
 	}
 
-	.contact {
-		/*position: relative;
-		bottom: 0;*/
-		/*margin-top: 0*/
-
-	}
-
 	.contact-form__heading {
 		background: #f2ebe9;
 		padding: 8em 0;
@@ -302,3 +327,10 @@ footer .nav-link:hover {
 
 
 @media only screen and (max-width: 1200px) {}
+
+.container {
+	max-width: 1238px !important;
+	overflow: hidden !important;
+	padding-left: 1.5rem !important;
+	padding-right: 1.5rem !important;
+}

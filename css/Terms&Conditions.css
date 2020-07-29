@@ -64,9 +64,7 @@ body {
     margin: auto;
 }
 
-span {
-    color: #E7332B;
-}
+
 
 h4 {
     color: #E7332B;
@@ -101,4 +99,11 @@ h5 {
     font-size: 1rem;
     line-height: 24px;
     text-align: justify;
+}
+
+.container {
+    max-width: 1238px !important;
+    overflow: hidden !important;
+    padding-left: 1.5rem !important;
+    padding-right: 1.5rem !important;
 }

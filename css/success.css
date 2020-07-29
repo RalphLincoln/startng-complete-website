@@ -1,4 +1,23 @@
 @font-face {
+  font-family: "Averta";
+  src: url("fonts/Averta-Thin.woff") format("woff"),
+       url("fonts/Averta-Thin.otf") format("opentype");
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "Averta";
+  src: url("fonts/Averta.woff") format("woff"),
+       url("fonts/Averta.otf") format("opentype");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Averta";
+  src: url("fonts/Averta-Semibold.woff") format("woff"),
+       url("fonts/Averta-Semibold.otf") format("opentype");
+  font-weight: 600;
+
     font-family: "Averta";
     src: url("fonts/Averta-Thin.woff") format("woff"),
         url("fonts/Averta-Thin.otf") format("opentype");
@@ -18,29 +37,11 @@
         url("fonts/Averta-Semibold.otf") format("opentype");
     font-weight: 600;
 }
-
-@font-face {
-    font-family: 'myfont';
-    src: url("/fonts/Averta.woff");
-    font-style: normal;
-}
-
-:root {
-    --primary-font: "Averta", sans-serif;
-    --primary-color: #514949;
-    --secondary-color: #E7332B;
-    --form-border-color: #0B0B0B;
-    --banner-bg-color: #F2EBE9;
-    --facebook-color: #3b5998;
-    --twitter-color: #00acee;
-}
-
 *,
 *::before,
-*::after {
-    box-sizing: border-box;
+*::after{
+  box-sizing: border-box;
 }
-
 html {
     overflow-x: hidden;
 }
@@ -73,8 +74,9 @@ header .h-btn {
 }
 
 .success-msg {
-    height: 70vh;
+    height: 80vh;
     display: grid;
+    align-items: center;
     place-items: center;
 }
 
@@ -112,72 +114,58 @@ header .h-btn {
 }
 
 footer {
-    margin-top: 121px;
-    font-size: 14px;
-    line-height: 20px;
+  margin-top: 121px;
+  font-size: 14px;
+  line-height: 20px;
 }
 
 footer h4,
 .copyright {
-    font-weight: bold;
-    font-size: 16px;
-    line-height: 24px;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
 }
 
 footer h4 {
-    margin-bottom: 24px;
+  margin-bottom: 24px;
 }
 
 footer .nav-link {
-    padding-top: 4px;
-    padding-bottom: 4px;
-    color: var(--primary-color);
+  padding-top: 4px;
+  padding-bottom: 4px;
+  color: var(--primary-color);
 }
 
 footer .nav-link:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 .facebook-link {
-    color: var(--facebook-color);
-    font-size: 20px;
+  color: var(--facebook-color);
+  font-size: 20px;
 }
 
 .twitter-link {
-    color: var(--twitter-color);
-    font-size: 20px;
+  color: var(--twitter-color);
+  font-size: 20px;
 }
 
 .copyright {
-    font-weight: bold;
-    margin-top: 56px;
-    padding: 32px 0 46px;
-    border-top: 0.7px solid #514949;
+
+  font-weight: bold;
+  margin-top: 56px;
+  padding: 32px 0 46px;
+  border-top: 0.7px solid #514949;
 }
+@media screen and (min-width:1000px){
+  header .h-btn{
+    margin-left:100px;
+  }
+ }
 
-.footer .logo {
-    display: flex;
-    justify-content: center;
-    margin: 1.5em 0;
-}
-
-
-
-
-@media only screen and (max-width:770px) {
-    .footer .row .col {
-        flex: 50%;
-
-    }
-
-    .footer .row {
-        margin: 0 auto !important;
-        width: 100vw;
-    }
-}
-
-@media screen and (min-width: 1000px) {
-    header .h-btn {
-        margin-left: 130px;
-    }
+ .container {
+  max-width: 1238px !important;
+  overflow: hidden !important;
+  padding-left: 1.5rem !important;
+  padding-right: 1.5rem !important;
 }

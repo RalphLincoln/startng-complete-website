@@ -22,6 +22,27 @@ main .accordion .accordion__item:nth-child(5) {
   border-bottom: 0.3px solid rgba(11, 11, 16, 0.39);
 }
 
+.headerSect {
+  background: rgba(242, 235, 233, 0.6);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
+}
+
+.headerP1 {
+  font-size: 14px;
+  color: #E7332B;
+  font-family: Averta;
+}
+
+.headerP2 {
+  font-family: Averta-Bold;
+  font-size: 32px;
+  line-height: 48px;
+  color: #514949;
+}
+
 main .accordion .accordion__item:target {
   background: #f2ebe9;
 }

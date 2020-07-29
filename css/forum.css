@@ -10,7 +10,7 @@
 }
 
 @font-face {
-    font-family: 'Averta';
+    font-family: 'Averta-bold';
     src: url('../fonts/Averta-Bold.woff') format('woff'),
         url('../fonts/Averta-Bold.otf') format('opentype');
     font-weight: 600;
@@ -27,6 +27,10 @@ html {
 body {
     font-family: 'Averta', 'Open Sans', sans-serif;
     overflow-x: hidden;
+}
+
+.lat {
+    font-family: Averta-bold;
 }
 
 h1 {
@@ -50,7 +54,7 @@ h3 {
 
 /* Header Beginning */
 header {
-    background-color: #F2EBE9;
+    background-color: #F2EBE9 !important;
     transition: all 0.5s;
 }
 
@@ -97,6 +101,12 @@ header .h-btn {
     margin: 2rem 0;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+}
+
+.filters .filter {
+    box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.3);
+    padding: 1rem;
 }
 
 /* Search */
@@ -105,13 +115,13 @@ header .h-btn {
     background: url('../images/forum/search.png');
     background-repeat: no-repeat;
     padding: 1.5em;
-    background-position: 96% center;
+    background-position: 98% center;
 }
 
 .search-cont input {
     border: 1px solid #514949;
     border-radius: 0;
-    padding: 1.4rem 1rem;
+    padding: 1.4rem 2.5rem 1.4rem .8rem;
 }
 
 .start {
@@ -146,28 +156,9 @@ header .h-btn {
     }
 }
 
-/* Search */
-
-/* .section-2 .search {
-  position: relative;
+.forum-container {
+  overflow: visible !important;
 }
-.section-2 .search input {
-  border-radius: 0;
-  border: 1px solid #514949;
-  padding: 1.4rem 1rem;
-}
-.section-2 .search img {
-  position: absolute;
-  top: 23%;
-  right: 2%;
-}
-.section-2 .btn {
-  border-radius: 0;
-  background-color: #E7332B;
-  color: white;
-  padding: .65rem;
-  margin-left: auto;
-} */
 
 .forum-box {
     padding: 1.5rem 5%;
@@ -188,12 +179,17 @@ header .h-btn {
     border-radius: 50%;
 }
 
+.forum-box .img img {
+  width: 100px;
+}
+
 .forum-box .img {
     margin-bottom: 2rem;
 }
 
 .forum-box .people {
     margin-bottom: 1rem;
+    text-align: center;
 }
 
 .forum-box .comments {
@@ -393,4 +389,11 @@ footer .nav-link:hover {
     .message-box {
         margin: 0 0 0 2rem !important;
     }
+}
+
+.container {
+    max-width: 1238px !important;
+    overflow: hidden !important;
+    padding-left: 1.5rem !important;
+    padding-right: 1.5rem !important;
 }

@@ -6,7 +6,7 @@
 }
 
 @font-face {
-    font-family: 'Averta';
+    font-family: 'Averta-bold';
     src: url('../fonts/Averta-Bold.woff') format('woff'),
         url('../fonts/Averta-Bold.otf') format('opentype');
     font-weight: 600;
@@ -23,6 +23,10 @@ html {
 body {
     font-family: 'Averta', 'Open Sans', sans-serif;
     overflow-x: hidden;
+}
+
+.fonty {
+    font-family: Averta-bold;
 }
 
 h1 {
@@ -46,7 +50,7 @@ h3 {
 
 /* Header Beginning */
 header {
-    background-color: #F2EBE9;
+    background-color: #F2EBE9 !important;
     transition: all 0.5s;
 }
 
@@ -64,9 +68,7 @@ header .h-btn {
 /* Header End */
 
 /* section 1 */
-.section-1 {
-    background-color: #F2EBE9;
-}
+
 
 .intro-text {
     text-align: center;
@@ -77,11 +79,14 @@ header .h-btn {
 
 .intro-text p {
     color: #E7332B;
+    font-size: 14px;
 }
 
 .intro-text h2 {
     color: #514949;
     font-weight: 600;
+    font-family: Averta-bold;
+    font-size: 32px;
 }
 
 /* section 2 */
@@ -107,6 +112,7 @@ header .h-btn {
 
 .form-group label {
     margin-bottom: 1rem;
+    font-size: 18px;
 }
 
 /* select option */
@@ -360,4 +366,11 @@ footer .nav-link:hover {
     .section-3 {
         margin: 10rem auto;
     }
+}
+
+.container {
+    max-width: 1238px !important;
+    overflow: hidden !important;
+    padding-left: 1.5rem !important;
+    padding-right: 1.5rem !important;
 }

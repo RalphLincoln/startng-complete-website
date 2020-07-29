@@ -1,4 +1,28 @@
 /*general styling*/
+
+@font-face {
+    font-family: "Averta-Black";
+    src: url("../fonts/Averta.woff") format("woff"),
+        url("../fonts/Averta.otf") format("opentype");
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: "Averta-bold";
+    src: url("../fonts/Averta-Bold.woff") format("woff"),
+        url("../fonts/Averta-Bold.woff") format("opentype");
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "Averta-semiBold";
+    src: url("../fonts/Averta-Semibold-Italic.woff") format("woff"),
+        url("../fonts/Averta-Semibold-Italic.otf") format("opentype");
+    font-weight: 600;
+}
+
+
+
 body {
     margin: 0;
     width: 100%;
@@ -89,7 +113,7 @@ main {
     width: 40px;
     height: 40px;
     background: #F2EBE9;
-    margin-right: 93px;
+    /*margin-right: 93px;*/
     margin-left: 10px;
     padding: 5px;
 }
@@ -113,8 +137,8 @@ main {
     width: 400px;
     max-width: 96%;
     min-height: 100px;
-    padding: 10px;
-    padding-top: 7px;
+    /*padding: 10px;*/
+    /*padding-top: 7px;*/
     padding-left: 80px;
 
 }
@@ -124,7 +148,7 @@ main {
     height: 56px;
     color: #fff;
     font-size: 18px;
-    margin-top: 15px !important;
+    /*margin-top: 15px !important;*/
     margin-bottom: 10px !important;
 
 }
@@ -153,7 +177,7 @@ main {
     width: 295px;
     height: 56px;
     font-size: 18px;
-    margin-top: 4px;
+    /*margin-top: 4px;*/
     background: rgba(247, 243, 242);
 }
 
@@ -163,9 +187,13 @@ main {
 }
 
 .home31-box:hover {
-    background: #E7332B;
+    background: #E7332B !important;
     transition: .9s;
     color: #fff !important;
+}
+
+.home31-box small:hover{
+    color: white !important;
 }
 
 .home31ui:hover p {
@@ -176,7 +204,6 @@ main {
     width: 800px;
     max-width: 97%;
     min-height: 600px;
-    padding: 10px;
 }
 
 footer {
@@ -188,12 +215,13 @@ footer {
 }
 
 .home32-cont {
-    width: 912px;
-    max-width: 99%;
+    /*width: 912px;*/
+    /*max-width: 99%;*/
+    min-width: 100%;
     min-height: 200px;
     background: rgba(247, 243, 242);
     margin-top: 10px;
-    padding: 20px;
+    padding: 20px !important;
     transition: .4s;
 }
 
@@ -231,58 +259,13 @@ footer {
     background: #d2f6dd !important;
 }
 
-.frontend-modal {
-    display: none;
-}
 
-.ui-modal {
-    display: none;
-}
-
-.backend-modal {
-    display: none;
-}
-
-.mobile-modal {
-    display: none;
-}
-
-.ui-modal {
-    display: block;
-}
-
+/* 
 .nav-red {
     color: tomato !important;
     font-weight: 600;
-}
+} */
 
-.footer {
-    display: flex;
-    justify-content: space-evenly;
-    width: 100%;
-    min-height: 300px;
-    flex-wrap: wrap;
-    color: #444444 !important;
-    padding-top: 50px;
-}
-
-.footer h5 {
-    color: #444444 !important;
-    font-size: 18px;
-}
-
-.footer p {
-    color: #444444 !important;
-}
-
-.footer-line {
-    width: 90%;
-    height: 1px;
-    background-color: #444444;
-    margin: auto;
-    margin-top: 20px;
-
-}
 
 /* media for large screen*/
 @media (max-width:1200px) {
@@ -302,6 +285,25 @@ footer {
     .ui-modal {
         display: none;
     }
+}
+
+.arror {
+    display: block;
+    float: right;
+    margin-top: -35px;
+    margin-right: 30px;
+}
+
+.intro-txt1 {
+    font-size: 14px;
+    color: #E7332B;
+    font-family: Averta;
+}
+
+.intro-txt2 {
+    font-family: Averta-Bold;
+    font-size: 32px;
+    color: #514949;
 }
 
 /* media for medium screens*/
@@ -330,14 +332,6 @@ footer {
 }
 
 @media (max-width:800px) {
-    .footer {
-        justify-content: flex-start;
-        flex-direction: column;
-        margin-left: 30px;
-        margin-bottom: 30px;
-        margin-top: -70px;
-
-    }
 
     .feet {
         margin-top: 50px !important;
@@ -352,4 +346,68 @@ footer {
         padding-top: -70px;
         margin-top: -70px;
     }
+}
+
+@font-face {
+    font-family: "Averta-Black";
+    src: url("../fonts/Averta.woff") format("woff"),
+        url("../fonts/Averta.otf") format("opentype");
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: "Averta-bold";
+    src: url("../fonts/Averta-Bold.woff") format("woff"),
+        url("../fonts/Averta-Bold.woff") format("opentype");
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "Averta-semiBold";
+    src: url("../fonts/Averta-Semibold-Italic.woff") format("woff"),
+        url("../fonts/Averta-Semibold-Italic.otf") format("opentype");
+    font-weight: 600;
+}
+
+
+.container {
+    max-width: 1238px !important;
+    overflow: hidden !important;
+    padding-left: 1.5rem !important;
+    padding-right: 1.5rem !important;
+}
+
+/* Bootstrap code for nav section */
+
+.sub-title{
+    color:  #514949;
+   font-weight: 600;
+   font-size: 18px;
+}
+
+.card-header{
+    background-color:  rgb(247, 243, 242) !important;
+    cursor: pointer;
+}
+
+.card-header:hover{
+    background-color: #E7332B !important;
+    color: #fff !important;
+}
+
+.sub-title:active, .sub-title:hover{
+    color: #fff !important;
+}
+
+.fa-angle-down{
+    color: #fff;
+    font-weight: 900;
+}
+
+.card-body{
+    background-color: white;
+}
+.list-div{
+    background-color:  #EFFFF4;
+    font-size: 18px;
 }

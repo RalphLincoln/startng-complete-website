@@ -19,7 +19,76 @@
     font-weight: 600;
 }
 
+body {
+    background-color: #FFFFFF;
+}
 
+
+/* THIS IS THE HEADER SECTION */
+.headerSect {
+    background: rgba(242, 235, 233, 0.6);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+}
+
+.headerP1 {
+    font-size: 14px;
+    color: #E7332B;
+    font-family: Averta;
+}
+
+.headerP2 {
+    font-family: Averta-Bold;
+    font-size: 32px;
+    color: #514949;
+}
+
+/* ######################## */
+
+
+/* TECHIES SECTION */
+.bg1 {
+    background-color: #DCF4F8;
+}
+
+.bg2 {
+    background-color: #FFE3E1;
+}
+
+.bg3 {
+    background-color: #F0DCF8;
+}
+
+.bg4 {
+    background-color: #F0F6F6;
+}
+
+.bg5 {
+    background-color: #EFFFF4;
+}
+
+.text1 {
+    font-size: 18px;
+    line-height: 28px;
+    height: 28px;
+    font-family: Averta-bold;
+}
+
+.text2 {
+    font-family: Averta-Black;
+}
+
+.text3 {
+    font-family: Averta-bold;
+    font-size: 18px;
+}
+
+.text4 {
+    font-family: Averta;
+    font-size: 16px;
+}
 
 
 /* NAVBAR LINK */
@@ -27,7 +96,7 @@
     height: 20px;
     font-size: 16px;
     line-height: 19px;
-    color: #514949 !important;
+    color: #514949;
     font-family: Averta-Black;
 }
 
@@ -127,4 +196,30 @@ footer .nav-link:hover {
     .footerCentre {
         text-align: center !important;
     }
+}
+
+.container {
+    max-width: 1238px !important;
+    overflow: hidden !important;
+    padding-left: 1.5rem !important;
+    padding-right: 1.5rem !important;
+}
+
+
+
+.bg {
+    background-image: url("../images/contact-form/bg.png");
+    background-size: cover;
+    padding-top: 10em;
+    padding-bottom: 10em;
+
+}
+
+.custom-btn {
+    background-color: #E7332B;
+    padding: 8px 20px !important;
+    /*text-align: center;*/
+    color: #ffff !important;
+    display: inline-block;
+
 }
