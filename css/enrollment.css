@@ -370,3 +370,15 @@ footer .nav-link:hover {
     padding-left: 1.5rem !important;
     padding-right: 1.5rem !important;
 }
+.form-control,
+.custom-select {
+    height: 55px;
+    border-radius: 0px;
+    padding: 0 14.5px!important;
+    /* border-color: var(--form-border-color); */
+    /* border: 1px solid var(--form-border-color); */
+}
+
+.custom-select {
+    background: #fff url("../images/certificate-request/select-dropdown-icon.svg") no-repeat right 18px center / 15px 10px;
+}
