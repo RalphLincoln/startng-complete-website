@@ -23,7 +23,7 @@
 }
 
 @font-face {
-    font-family: "Averta";
+    font-family: "Averta-bold";
     src: url("../fonts/Averta-Bold.woff") format("woff"),
         url("../fonts/Averta-Bold.otf") format("opentype");
     font-weight: bold;
@@ -86,6 +86,12 @@ p {
     margin-bottom: 25px;
 }
 
+.headerP1 {
+    font-size: 14px;
+    color: #E7332B;
+    font-family: Averta-bold;
+}
+
 .form-control,
 .custom-select {
     height: 55px;
@@ -144,6 +150,7 @@ header {
 .masthead {
     margin-bottom: 89px;
 }
+
 /* Masthead
 ------------------------------- */
 
