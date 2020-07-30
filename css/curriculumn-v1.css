@@ -28,7 +28,7 @@
     font-weight: 600;
 }
 
-:root{
+:root {
     font-size: 16px;
 }
 
@@ -201,7 +201,7 @@ main {
     color: #fff !important;
 }
 
-.home31-box small:hover{
+.home31-box small:hover {
     color: white !important;
 }
 
@@ -240,17 +240,19 @@ footer {
 
 }
 
-.course-title{
+.course-title {
     font-family: 'Averta-Bold';
     font-size: 1.125rem;
-    color: #514949;;
-   
+    color: #514949;
+    ;
+
 }
 
-.course-text{
+.course-text {
     font-family: 'Averta-Regular';
     font-size: 1em;
-    color: #514949;;
+    color: #514949;
+    ;
 }
 
 .home32-btns {
@@ -276,6 +278,7 @@ footer {
 .ui-content:hover {
     background: #d2f6dd !important;
 }
+
 
 /* 
 .nav-red {
@@ -398,45 +401,53 @@ footer {
 
 /* Bootstrap code for nav section */
 
-.sub-title{
-    color:  #514949;
-   font-weight: 600;
-   font-size: 18px;
+.sub-title {
+    color: #514949;
+    font-weight: 600;
+    font-size: 18px;
 }
 
-.card-header{
-    background-color:  rgb(247, 243, 242) !important;
+.card-header {
+    background-color: rgb(247, 243, 242) !important;
     cursor: pointer;
 }
 
-.card-header:hover{
+.card-header:hover {
     background-color: #E7332B !important;
     color: #fff !important;
 }
 
-.sub-title:active, .sub-title:hover{
+.sub-title:active,
+.sub-title:hover {
     color: #fff !important;
 }
 
-.fa-angle-down{
+.fa-angle-down {
     color: #fff;
     font-weight: 900;
 }
 
-.card-body{
+.card-body {
     background-color: white;
 }
-.list-div{
-    background-color:  #EFFFF4;
+
+.list-div {
+    background-color: #EFFFF4;
     font-size: 18px;
 }
 
 .tabcontent {
-    animation: fadeEffect 1s; /* Fading effect takes 1 second */
-  }
-  
-  /* Go from zero to full opacity */
-  @keyframes fadeEffect {
-    from {opacity: 0;}
-    to {opacity: 1;}
-  }
+    animation: fadeEffect 1s;
+    /* Fading effect takes 1 second */
+}
+
+/* Go from zero to full opacity */
+@keyframes fadeEffect {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}

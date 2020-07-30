@@ -2,25 +2,25 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- seo IMPLEMENTATION -->
-    <meta name="keywords"
-        content="startNg, hotel.ng,HNG, Africa,Technology, software-engineering, front end, Backend, UI/UX, full-stack ">
-    <meta name="description"
-        content="A Nigerian based software-engineering training provider with the goal of crafting the next generation of highly capable and competent software engineers and solution providers.Our core focus are frontend, backend UI/UX and mobile app developers " />
-    <meta name="rating" content="General" />
-    <meta name="ROBOTS" content="ALL" />
-    <meta name="geo.region" CONTENT="Nigeria S/W, Lagos">
-    <meta http-equiv="content-Type" content="text/html; charset=iso-8859-1" />
-    <title>Register</title>
-    <!-- Font Awesome CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css"
-        integrity="sha512-xA6Hp6oezhjd6LiLZynuukm80f8BoZ3OpcEYaqKoCV3HKQDrYjDE1Gu8ocxgxoXmwmSzM4iqPvCsOkQNiu41GA=="
-        crossorigin="anonymous" />
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <link rel="stylesheet" href="./css/enrollment.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- seo IMPLEMENTATION -->
+  <meta name="keywords"
+    content="startNg, hotel.ng,HNG, Africa,Technology, software-engineering, front end, Backend, UI/UX, full-stack ">
+  <meta name="description"
+    content="A Nigerian based software-engineering training provider with the goal of crafting the next generation of highly capable and competent software engineers and solution providers.Our core focus are frontend, backend UI/UX and mobile app developers " />
+  <meta name="rating" content="General" />
+  <meta name="ROBOTS" content="ALL" />
+  <meta name="geo.region" CONTENT="Nigeria S/W, Lagos">
+  <meta http-equiv="content-Type" content="text/html; charset=iso-8859-1" />
+  <title>Register</title>
+  <!-- Font Awesome CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css"
+    integrity="sha512-xA6Hp6oezhjd6LiLZynuukm80f8BoZ3OpcEYaqKoCV3HKQDrYjDE1Gu8ocxgxoXmwmSzM4iqPvCsOkQNiu41GA=="
+    crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <link rel="stylesheet" href="./css/enrollment.css">
 
   <!-- This CSS link is for my CUSTOM CSS -->
   <link rel="stylesheet" type="text/css" href="./css/techies.css">
@@ -119,39 +119,34 @@
             </select>
             <div class="invalid-feedback" role="alert">This field is required, please select your preferred course
             </div>
-            <!-- </div> -->
-          </div>
-          <div class="form-group ">
-            <label for="level">Level</label>
-            <div class="custom-control custom-radio radios">
-
-    <section class="mt-5 enroll">
-      <div class="container mb-5 enroll-child">
-        <div class="row">
-          <div class="col-md-12 text-center">
-            <div class="bg">
-              <h3 class="mb-5 text-white">Break into the tech industry like a Pro</h3>
-              <a href="#" class=" custom-btn text-decoration-none" type="button">Enroll Today</a>
+            <!-- Radio Buttons -->
+            <div class="form-group">
+              <label class="level">Level</label>
+              <div class="radios">
+                <label class="radio-container">Beginner
+                  <input type="radio" name="radio">
+                  <span class="checkmark"></span>
+                </label>
+                <br />
+                <label class="radio-container">Intermediate
+                  <input type="radio" name="radio">
+                  <span class="checkmark"></span>
+                </label>
+              </div>
             </div>
-            <div class="custom-control custom-radio mb-3 radios">
-              <input type="radio" class="custom-control-input radios" id="customControlValidation3" name="radio-stacked"
-                required>
-              <label class="custom-control-label" for="customControlValidation3">Intermediate</label>
-              <div class="invalid-feedback">please choose either beiginner or intermediate</div>
+            <div class="form-group form-btn mt-5">
+              <button type="submit">Enroll</button>
             </div>
-          </div>
-          <div class="form-group form-btn mt-5">
-            <button class="enrollBtn">Enroll</button>
-          </div>
         </form>
       </div>
     </div>
   </div>
+
   <!-- ################################################################# -->
   <!-- THIS IS FOR THEN IMAGE OVERLAY.............. -->
 
   <section class="mt-5 enroll">
-    <div class="container mb-5">
+    <div class="container mb-5 enroll-child">
       <div class="row">
         <div class="col-md-12 text-center">
           <div class="bg">
@@ -373,7 +368,6 @@
   </script>
   <script src="./js/bootstrap.bundle.min.js"></script>
   <script src="./js/enrollment.js"></script>
-  <!-- <script src="./js/certificate-request.js"></script> -->
 </body>
 
 </html>
