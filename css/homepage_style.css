@@ -16,7 +16,19 @@ button {
 }
 
 button a {
-  color: #ffffff !important;
+  color: #ffffff;
+}
+
+.headerH4 {
+  font-family: Averta-Bold;
+  font-size: 32px;
+  color: #514949;
+}
+
+.pp {
+  color: #514949;
+  font-size: 24px;
+  font-family: Averta-Bold;
 }
 
 button a:hover {

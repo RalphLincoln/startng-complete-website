@@ -1,14 +1,14 @@
 /*general styling*/
 
 @font-face {
-    font-family: "Averta-Black";
+    font-family: "Averta-Regular";
     src: url("../fonts/Averta.woff") format("woff"),
         url("../fonts/Averta.otf") format("opentype");
     font-weight: 300;
 }
 
 @font-face {
-    font-family: "Averta-bold";
+    font-family: "Averta-Bold";
     src: url("../fonts/Averta-Bold.woff") format("woff"),
         url("../fonts/Averta-Bold.woff") format("opentype");
     font-weight: normal;
@@ -21,7 +21,16 @@
     font-weight: 600;
 }
 
+@font-face {
+    font-family: "Averta-Black";
+    src: url("../fonts/Averta-Black.woff") format("woff"),
+        url("../fonts/Averta-Black.otf") format("opentype");
+    font-weight: 600;
+}
 
+:root{
+    font-size: 16px;
+}
 
 body {
     margin: 0;
@@ -231,8 +240,17 @@ footer {
 
 }
 
-.home32-cont h4 {
-    font-weight: 600;
+.course-title{
+    font-family: 'Averta-Bold';
+    font-size: 1.125rem;
+    color: #514949;;
+   
+}
+
+.course-text{
+    font-family: 'Averta-Regular';
+    font-size: 1em;
+    color: #514949;;
 }
 
 .home32-btns {
@@ -295,15 +313,17 @@ footer {
 }
 
 .intro-txt1 {
-    font-size: 14px;
+    font-size: 16px;
     color: #E7332B;
-    font-family: Averta;
+    font-family: "Averta-Regular";
+    font-weight: 600;
 }
 
 .intro-txt2 {
-    font-family: Averta-Bold;
+    font-family: 'Averta-Bold';
     font-size: 32px;
     color: #514949;
+    font-weight: 500;
 }
 
 /* media for medium screens*/
@@ -348,7 +368,7 @@ footer {
     }
 }
 
-@font-face {
+/* @font-face {
     font-family: "Averta-Black";
     src: url("../fonts/Averta.woff") format("woff"),
         url("../fonts/Averta.otf") format("opentype");
@@ -367,7 +387,7 @@ footer {
     src: url("../fonts/Averta-Semibold-Italic.woff") format("woff"),
         url("../fonts/Averta-Semibold-Italic.otf") format("opentype");
     font-weight: 600;
-}
+} */
 
 
 .container {
@@ -411,3 +431,13 @@ footer {
     background-color:  #EFFFF4;
     font-size: 18px;
 }
+
+.tabcontent {
+    animation: fadeEffect 1s; /* Fading effect takes 1 second */
+  }
+  
+  /* Go from zero to full opacity */
+  @keyframes fadeEffect {
+    from {opacity: 0;}
+    to {opacity: 1;}
+  }
