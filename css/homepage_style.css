@@ -183,11 +183,50 @@ footer .nav-link:hover {
   padding-bottom: 10em;
 
 }
-
+.carousel-cell{
+  margin:0 1em !important;
+}
 .custom-btn {
   background-color: #E7332B;
   padding: 8px 20px !important;
   /*text-align: center;*/
   color: #ffff !important;
   display: inline-block;
+}
+
+.custom-col-6 {
+padding-left: 7.5px;
+padding-right: 7.5px;
+max-width: 200px;
+}
+
+.custom-col-6 img {
+margin-bottom: 15px;
+animation: fly-in 600ms ease-in;
+animation-fill-mode: backwards;
+}
+
+.custom-col-6 img:nth-child(2) {
+animation-delay: 0.15s;
+}
+
+.custom-col-6 img:nth-child(3) {
+animation-delay: 0.3s;
+}
+
+
+@keyframes fly-in {
+0% {
+transform: translateX(-30px) rotateY(0deg);
+opacity:0;
+}
+
+50% {
+transform: translateX(-15px) rotateY(0deg);
+opacity:1;
+}
+
+100% {
+transform: translateX(0) rotateY(0);
+}
 }
