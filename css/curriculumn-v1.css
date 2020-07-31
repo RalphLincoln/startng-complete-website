@@ -376,14 +376,12 @@ footer {
         url("../fonts/Averta.otf") format("opentype");
     font-weight: 300;
 }
-
 @font-face {
     font-family: "Averta-bold";
     src: url("../fonts/Averta-Bold.woff") format("woff"),
         url("../fonts/Averta-Bold.woff") format("opentype");
     font-weight: normal;
 }
-
 @font-face {
     font-family: "Averta-semiBold";
     src: url("../fonts/Averta-Semibold-Italic.woff") format("woff"),
@@ -404,6 +402,21 @@ footer {
 .sub-title {
     color: #514949;
     font-weight: 600;
+    font-size: 18px;
+}
+
+
+.track-title {
+    font-family: 'Averta-Bold';
+    font-weight: 500;
+    color: #514949;
+    font-size: 1.5rem;
+}
+
+.track-text {
+    font-family: 'Averta';
+    font-size: 1.125rem;
+    color: #444444;
     font-size: 18px;
 }
 
