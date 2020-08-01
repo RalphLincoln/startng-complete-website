@@ -1,3 +1,4 @@
+/* MY CUSTOMS FONTS */
 @font-face {
     font-family: "Averta-Black";
     src: url("../fonts/Averta.woff") format("woff"),
@@ -19,9 +20,14 @@
     font-weight: 600;
 }
 
+/* ################################## */
+
+
+
 body {
     background-color: #FFFFFF;
 }
+
 
 
 /* THIS IS THE HEADER SECTION */
@@ -46,6 +52,8 @@ body {
 }
 
 /* ######################## */
+
+
 
 
 /* TECHIES SECTION */
@@ -90,6 +98,10 @@ body {
     font-size: 16px;
 }
 
+/* ######################## */
+
+
+
 
 /* NAVBAR LINK */
 .n-links {
@@ -110,42 +122,11 @@ body {
     font-style: normal;
 }
 
+/* ######################### */
 
-/* IMAGE OVERLAY */
-.containers {
-    position: relative;
-    text-align: center;
-    color: white;
-}
 
-.centered {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
 
-/* THIS STYLING IS FOR THE HEADERS */
-header {
-    font-family: myfont;
-    transition: all 0.5s;
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
 
-header .h-btn {
-    background: #E7332B;
-    border-radius: 0;
-}
-
-@media screen and (min-width: 1000px) {
-    header .h-btn {
-        margin-left: 100px;
-    }
-}
-
-/* ########################## */
 
 /* THIS STYLING IS FOR THE FOOTER */
 footer {
@@ -188,9 +169,11 @@ footer .nav-link:hover {
     border-top: 0.7px solid #514949;
 }
 
-
-
 /* ############################ */
+
+
+
+
 
 @media (min-width:480px) {
     .footerCentre {
@@ -198,6 +181,10 @@ footer .nav-link:hover {
     }
 }
 
+
+
+
+/* MANAGING THE BODY CONTENT */
 .container {
     max-width: 1238px !important;
     overflow: hidden !important;
@@ -205,14 +192,11 @@ footer .nav-link:hover {
     padding-right: 1.5rem !important;
 }
 
-
-
 .bg {
     background-image: url("../images/contact-form/bg.png");
     background-size: cover;
     padding-top: 10em;
     padding-bottom: 10em;
-
 }
 
 .custom-btn {
@@ -221,5 +205,6 @@ footer .nav-link:hover {
     /*text-align: center;*/
     color: #ffff !important;
     display: inline-block;
-
 }
+
+/* ######################### */

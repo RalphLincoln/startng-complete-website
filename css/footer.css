@@ -27,11 +27,7 @@ body{
   /*overflow-x: hidden;*/
 }
 
-/**, a{
-  color: #514949!important;
-  font-family: "Averta";
-}
-*/
+
 
 .custom-btn{
   background-color: #E7332B;
@@ -151,7 +147,7 @@ footer li{
     padding: 5px 30px!important;
   }
 
-  *{
+  footer{
     font-size: 10px;
   }
 

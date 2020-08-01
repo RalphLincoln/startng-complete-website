@@ -91,6 +91,26 @@ nav .move {
   margin-bottom: 20px;
 }
 
+#desktop {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#desktop .card-container {
+  flex: 50%;
+  margin: .5rem 0;
+}
+
+.card-container .card {
+  height: 100%;
+}
+
+@media (min-width: 992px) {
+  #desktop .card-container {
+  flex: 15%;
+  }
+}
+
 @media (min-device-width:360px) and (max-width:640px) {
   div .row #none {
     display: none;

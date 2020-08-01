@@ -177,7 +177,7 @@ header .h-btn {
     }
 }
 
-.forum-container {
+.container.forum-container {
   overflow: visible !important;
 }
 
