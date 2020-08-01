@@ -46,7 +46,6 @@ function closeNav() {
     // Fetch the form to apply custom Bootstrap validation style to
     var forms = document.getElementsByClassName("enroll");
 
-    const loadSuccess = () => window.location.assign("success.html");
     // Loop over it and prevent submission
     var validation = Array.prototype.filter.call(forms, function (form) {
       form.addEventListener(
@@ -61,9 +60,9 @@ function closeNav() {
         false
       );
     });
-  });
-  // jQuery document ready function
+  }); // jQuery document ready function
 })(); // Immediately Invoked Function Expression (IIFE)
+
 
 const formSubmitBtn = document.querySelector(".enrollBtn");
 formSubmitBtn.addEventListener("click", () => {});
